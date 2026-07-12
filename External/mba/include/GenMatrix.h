@@ -51,7 +51,7 @@ static void myMessage(int i, int j) {
  * The indices goes from -1.
  * The class has reserve (and capasity) functionality similar to std::vector.
  * 
- * \author Øyvind Hjelle <Oyvind.Hjelle@math.sintef.no>
+ * \author ï¿½yvind Hjelle <Oyvind.Hjelle@math.sintef.no>
  */
 //===========================================================================
 
@@ -73,7 +73,7 @@ public:
     std::cout << "GenMatrix:: copy constructor not implemented, use init()" << std::endl;
     std::cout << "EXIT FROM GenMatrix:: copy constructor" << std::endl;
 
-    this->exit(-1);
+    exit(-1);
   }
   
   
